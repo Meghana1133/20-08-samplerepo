@@ -21,7 +21,7 @@ String password = request.getParameter("pass");
 if(password.equals("studytonight"))
 {
 RequestDispatcher rd =
-request.getRequestDispatcher("Welcome");
+request.getRequestDispatcher("Welcome user");
 rd.forward(request, response);
 }
 else
